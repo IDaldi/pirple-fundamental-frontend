@@ -1,0 +1,165 @@
+<html>  
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title> My Cool Site</title>
+    <style>
+
+        body{
+            background-color: lightblue;
+            margin: 0;
+            padding: 0;
+        }
+
+        #nav footer {
+            height: 50px;
+            background-color: teal;
+            width: 100%;
+            color: white;
+        }
+        nav ul {
+            background-color: teal;
+            list-style: none;
+            padding-left: 0;
+            display: flex;
+            
+        }
+        nav ul li {
+            background-color: burlywood;
+            font-size: 30px;
+            
+        }
+        nav li:hover{
+            background-color: chocolate;
+
+        }
+        nav a{
+            text-decoration: none;
+            color: white;
+            display: block;
+            padding: 0 10px;
+        }
+
+        #intro{
+            text-align: center;
+        }
+        main article{
+            display: flex;
+            flex-flow: row wrap-reverse;
+            justify-content: center;
+            margin: 20px;
+        }
+        #blog-text {
+            width: 50%;
+            font-size: 25px;
+            
+            
+        }
+
+        #blog-text p:first-child {
+            margin-bottom: 50px;
+
+        }
+        
+        .card{
+            width: 500px;
+            background-color: #fff;
+            border-radius:10px;
+            padding-bottom: 2px;
+        }
+
+        .card h4 {
+            text-align: center;
+
+        }
+
+        .card li {
+            font-size: 18px;
+        }
+
+        #lower-image {
+            text-align: center;
+        }
+
+        #lower-image img {
+            width: 35%;
+            height: auto;
+        }
+
+        footer p{
+            background-color: teal;
+            padding-left: 20px;
+        }
+    </style>
+    </head>
+    <body> 
+        <nav id="nav">
+            <ul>
+                <li><a href="http://www.google.com">Go To Google</a></li>
+                <li><a href="https://www.pirple.com/">Pirple</a></li> 
+                <li><a href="https://www.pirple.com/">ALDI</a></li>   
+            </ul> 
+         </nav>    
+      
+        <main>
+            <header id="intro">
+                 <h1>The best chocolate cake recipe</h1>
+                 <section>
+                     <img src="https://i.imgur.com/gEmb2bu.jpg" alt="">
+                     <h3>You, too , can enjoy this deliciousness</h3>
+                 </section>
+            </header>
+            <article>
+                <section id="blog-text" >
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut illo dolorem quae nisi sint ad. Aut, nulla nihil eius asperiores, nobis odit esse ducimus commodi a, aliquid tempore quisquam accusantium.
+                   <span> <i> Hello</i></span>
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non nesciunt eius molestiae debitis libero, recusandae nihil aspernatur asperiores neque quis hic sed officiis consequatur temporibus placeat doloribus dolorem saepe commodi?
+                        <span><i>World</i></span>
+                    </p>
+                </section>
+
+                <section>
+                     <section id="ingredients" class="card">
+                        <h4>Ingredients</h4>
+                        <ul>
+                            <li>1 Cup donec convalis</li>
+                            <li>1 tbsp vel consectetur</li>
+                            <li>1 tsp ultricies pharetra</li>
+                            <li>2 cups tincidunt augue</li>
+                            <li>1 tsp amet blandit</li>
+                            <li>4 tbsp convalis</li>
+                            <li>3 tbsp ipsum</li>
+                        </ul>
+                     </section>
+
+                     <section id="directions" class="card">
+                        <h4>Directions</h4>
+                        <ol>
+                            <li>Nune ante eros lacinia quis lectus</li>
+                            <li> duis ac bilbendum tortor acename mauris leoduis ac bilbendum tortor acename mauris le</li>
+                            <li>duis ac bilbendum tortor acename mauris le</li>
+                            <li>duis ac bilbendum tortor acename mauris le</li>
+                            <li>duis ac bilbendum tortor acename mauris le</li>
+                            <li>duis ac bilbendum tortor acename mauris leduis ac bilbendum tortor acename mauris le</li>
+                        </ol>
+                    </section>
+                </section>
+                   
+            </article>
+            <section id="lower-image">
+                <img src="https://i.imgur.com/J6Gcagd.jpg" alt="">
+            </section>
+           
+ 
+        </main>
+        <!-- end main content-->
+       
+<!-- footer-->
+        <footer>
+            <p>Page Create By Aldi</p>
+        </footer>
+        <!-- end footer-->
+        </body>
+</html>
